@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+svg{
+    height: 20px;
+    
+}
+
+svg .cls-1 {
+    transition: 0.3s;
+}
+svg:hover .cls-1 {
+    fill:#770E00;
+   
+} 
+
+#Layer_2  {
+    height: 60px;
+}
+
+.servicios:hover .cls-2 {
+    fill: #770E00;
+}

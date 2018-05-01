@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'anita_semi';
+    src: url('../font/anita_semi_square-webfont.woff2') format('woff2'),
+         url('../font/anita_semi_square-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'a-space';
+    src: url('../font/a-space_light_demo-webfont.woff2') format('woff2'),
+         url('../font/a-space_light_demo-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'olneylight';
+    src: url('../font/olney_light-webfont.woff2') format('woff2'),
+         url('../font/olney_light-webfont.woff') format('woff'),
+         url('../font/olney_light-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+

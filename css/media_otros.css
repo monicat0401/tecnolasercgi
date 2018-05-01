@@ -1,0 +1,97 @@
+
+@media screen and (max-width:750px) {
+   
+#seccion_cuatro{
+    width: 100%;
+    height: auto;
+    background: url(../img/fondoparallax.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#seccion_cuatro .titulo_rombo{
+    padding-top: 20px;
+    color: white;
+    text-align: center;
+    font-weight: 500;
+    font-size: 30px;
+    font-family: 'anita_semi';
+    margin-bottom:15px;
+
+}
+#seccion_cuatro .contenedor{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  width:100%;
+  flex-direction:column;
+}
+
+.proceso{
+    color: white;
+    font-family: 'olneylight';
+    text-align: center;
+
+    
+}
+
+.proceso a{
+    color: white;
+    font-family: 'olneylight';
+}
+
+
+
+.figuras{
+  display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.rombo{
+  width:120px;
+  height:120px;
+  margin:30px;
+  border:2px solid #B60E0B;
+  transform:rotate(45deg);
+  border-radius:10px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  overflow:hidden;
+}
+
+.rombo p {
+  color:white;
+  font-size:18px;
+  transform:rotate(-45deg);
+  text-align:center;
+font-family: 'olneylight';
+    
+}
+
+.color4{
+  transition:all .3s ease-in;
+  position:absolute;
+  width:160%;
+  height:160%;
+  background: #B60E0B;
+  opacity:.8;
+  transform:rotate(-45deg);
+  top: 100px;
+  left:100px; 
+}
+.rombo:hover .color4{
+ top:-40px;
+ left:-40px;
+ 
+}
+
+
+}

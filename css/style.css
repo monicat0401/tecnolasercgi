@@ -1,0 +1,42 @@
+@font-face {
+  font-family: 'seccion_dos_icon';
+  src:  url('../font/seccion_dos_icon.eot?wc3y3b');
+  src:  url('../font/seccion_dos_icon.eot?wc3y3b#iefix') format('embedded-opentype'),
+    url('../font/seccion_dos_icon.ttf?wc3y3b') format('truetype'),
+    url('../font/seccion_dos_icon.woff?wc3y3b') format('woff'),
+    url('../font/seccion_dos_icon.svg?wc3y3b#seccion_dos_icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'seccion_dos_icon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-tecno_uno:before {
+  content: "\e900";
+
+}
+.icon-tecno_dos:before {
+  content: "\e901";
+
+}
+.icon-tecno_tres:before {
+  content: "\e902";
+
+}
+.icon-tecno_cuatro:before {
+  content: "\e903";
+
+}
