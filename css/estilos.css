@@ -147,7 +147,7 @@ nav ul li:hover .sub_menu {
 
 #texto_seccion1 h1 {
     font-size: 40pt;
-    color: black;;
+    color: black;
     font-family: 'anita_semi';
     font-weight: 200;
     margin-left: 10px;
@@ -155,7 +155,7 @@ nav ul li:hover .sub_menu {
 
 #texto_seccion1 p {
     padding: 20px 0;
-    color: black;;
+    color: black;
     font-size: 18px;
     font-family: 'olneylight';
     margin-left: 10px;
