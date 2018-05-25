@@ -123,341 +123,237 @@ nav ul li:hover .sub_menu {
 
                       /*FIN DEL MENU*/
 
-                      /*BOTON IR ARRIBA*/
-@keyframes top_anim {
-    0%   {
-        transform: rotate(45deg);
-    }
-    25%  {
-        transform: rotate(55deg);
-    }
-    
-    50%  {
-        transform: rotate(35deg);
-    }
-    
-    100% {
-        transform: rotate(45deg);
-    }
-}
-
-.arriba {
- 
-  width:70px;
-  height:70px;
-  background:#B60E0B;
-  position:fixed;
-  bottom:20px;
-  right:20px;
-  cursor:pointer;
-  border-radius:10px;
-  transform:rotate(45deg);
-  display:none;
-  text-align:center;
-  justify-content:center;
-  align-items:center;
-  transition:all .2s;
-}
-.arriba:hover {
-  background:#770E00;
-transition: all ease 0.5s;
-animation-name: top_anim;
-animation-duration: 0.5s;
-animation-timing-function:ease-in-out;
-}
-.arriba span {
-  font-family:sans-serif;
-  color:white;
-  transform:rotate(-45deg);
-  
-  
-}
-
-
-                      /*FIN DEL BOTON*/
-
-
-                      /*SECCION UNO*/
-
-#todo{
-    width: 100%;
-    background-image: url(../img/fondoserv.jpg);
+.backg{
+     background-image: url(../img/fondoserv.jpg);
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
 }
 
-.seccion_uno {
+
+                      /*SECCION UNO*/
+
+.seccion_uno{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.cajauno {
     display: flex;
     width: 100%;
+    margin-top:100px;
     justify-content: center;
     align-items: center;
     text-align: center;
     flex-direction: column;
 }
 
-
-.texto h1{
-    margin-top: 110px;
-    font-size: 50pt;
+.cajauno h1{
+    margin: 30px 0 20px 0;
+    font-size: 40pt;
     color: #B60E0B;
     font-family: 'anita_semi';
     font-weight: 200;
 }
 
-.texto p{
-    max-width: 700px;
-    font-size: 14pt;
-    color: black;
-    font-family: 'anita_semi';
-    padding: 50px 10px 0 10px;
+.cajauno p{
+    width: 90%;
+  max-width: 790px;  
+  margin: 0 0 20px 0;
 }
 
-.botones {
-    margin-top: 50px;
+.infocont{
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     width: 100%;
-    max-width: 1100px;
+    max-width: 1200px;
     flex-wrap: wrap;
 }
 
-.botones a{
-    text-decoration: none;
-    color: black;
-}
-
-.servi {
+.sub_info{
     margin: 20px;
-    width: 200px;
-    max-width: 200px;
-    border:2px solid #B60E0B;
-    height: 200px;
+    width: 220px;
+    max-width: 300px;
+    height: 150px;
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-.servi:hover{
-    background: #B60E0B;
-    color: white; }
-
-.servi h1 {
-font-family: 'anita_semi';
-text-align: center;
-font-size: 20px;
-padding-top: 30px;
+.sub_info img{
+    top: 2px;
+    margin-bottom: 10px;
 }
 
-.icon-tecno_uno{
-    color:#B60E0B;
-}
-.servi:hover .icon-tecno_uno {
-    color: white;
-}
-
-.icon-tecno_dos{
-    color:#B60E0B;
-}
-.servi:hover .icon-tecno_dos {
-    color: white;
-}
-
-.icon-tecno_tres{
-    color:#B60E0B;
-}
-.servi:hover .icon-tecno_tres {
-    color: white;
-}
-
-.icon-tecno_cuatro{
-    color:#B60E0B;
-}
-.servi:hover .icon-tecno_cuatro {
-    color: white;
-}
-
-
-.icon-tecno_uno{
-    font-size: 100px   
-}
-
-.icon-tecno_dos{
-    font-size: 100px   
-}
-
-.icon-tecno_tres{
-    font-size: 100px   
-}
-
-.icon-tecno_cuatro{
-    font-size: 100px   
-}
-
-
-                        /*SECCION DOS*/
-
-
-#secciondos {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    width: 100%;
-    position: relative;
-}
-
-.general_uno{
-    width: 50%;
-    height: 100%;
-}
-
-.general_uno h1 {
-    color: black;
-    font-weight: 400;
-    font-size: 50px;
-    margin: 140px 0 30px 40px;
-    font-family: 'anita_semi';
-}
-.general_uno .linea {
-    width: 300px;
-    height: 5px;
-    background: #B60E0B;
-    margin-left: 40px; 
-}
-
-.general_uno p {
-    color: black;
-    font-size: 17px;
-    padding: 40px 45px 40px 40px ;
+.sub_info p{
     font-family: 'olneylight';
 }
 
-.general_uno a {
+
+                     /*SECCION DOS*/
+
+
+.seccion_dos{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 70px;
+}
+
+.cajatexto{
+        text-align: center;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+    margin-top: 35px;
+}
+
+.cajatexto h1{
+    width: 100%;
+    font-family: 'anita_semi';
+    color: #B60E0B;
+    font-size: 40px;
+}
+
+.cajatexto p{
+     font-family: 'olneylight';
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+.asunto{
+    max-width: 800px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.asunto a{
+    width: 45%;
+    border: 1px solid #B60E0B;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 25px;
+    font-family: 'olneylight';
+    cursor: pointer;
+    transition: all .2s;
+}
+
+.asunto a:hover{
+    background: #B60E0B;
+    color: white;
+    
+}
+
+
+
+                     /*SECCION TRES*/
+
+
+.seccion_tres{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont{
+    max-width: 1000px;
+    width: 90%;
+    height: 320px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.lineasig{
+    width: 96%;
+    height: 2px;
+    background: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.redinfo{
+    width: 90%;
+max-width: 400px;
+display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: center;
+}
+
+.redinfo h1 {
+    font-family: 'anita_semi';
+    font-size: 20pt;
+    color: #B60E0B;
+    margin: 40px 0 30px 0;
+}
+
+.redsig {
+    width: 160px;
+    display: flex;
+    align-items: center;
+    margin-bottom:  10px;
+}
+
+.redsig img {
+margin-right: 15px;
+}
+
+.redsig a{
     text-decoration: none;
     color: black;
-    border: 2px solid #B60E0B;
-    padding: 15px;
-    width: 60px;
-    transition: .2s;
-    text-align: center;
-    margin-left: 40px;
 }
 
-.general_uno a:hover {
-    background: #B60E0B;
-    color: white; }
-
-
-.general_dos {
-    width: 50%;
-    margin-top:100px;
-    max-width: 550px;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-
+.logocont{
+    height: 130px;
+    margin-top: 20px;
 }
 
-.general_dos img {
-  cursor:pointer;
-  padding:0;
-  margin:0;
-  width:32%;
-  max-width:250px;
-  object-fit:cover;
-  transition:.3s;
- 
-}
-.galeria img:hover {
- opacity:.5;
-}
-
-.galeria{
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  flex-wrap:wrap;
-}
-
-.modal {
-    z-index: 9999;
-  position:fixed;
-  background:rgba(0,0,0,.8);
-  width: 100%;
-  height:100%;
-  top:0;
-  left:0;
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  flex-direction:column;
+.frame {
+     position: relative;
+    width: 100%;
+    height: 320px;
+    overflow: hidden;
+    margin-bottom: 30px;
   
+
+
 }
+.frame iframe {
+     position: absolute;
 
-.modal_img{
-  width:90%;
-  max-width:450px;
-}
+    display: block;
 
-.mod_cerrar{
-  font-size:20px;
-  font-family:sans-serif;
-  border:2px solid white;
-  padding:20px;
-  color:white;
-  margin-top:20px;
-  cursor:pointer;
-  transition:.3s;
-}
-.mod_cerrar:hover {
-  background:white;
-  color: black;
-}
+    top: 0;
+
+    left: 50%;
+    transform: translateX(-50%);
+        box-sizing: border-box;
+    padding: 10px;
+    width:100%;
 
 
-
-
-
-                        /*SECCION TRES*/
-
-#secciontres {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    width: 100%;
-    position: relative;
-}
-
-                        /*SECCION CUATRO*/
-
-#seccioncuatro {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    width: 100%;
-    position: relative;
-}
-
-                        /*SECCION CINCO*/
-
-#seccioncinco {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    width: 100%;
-    position: relative;
+    
 }
 
 
-
-                        /*FOOTER*/
+                     /*FOOTER*/
 
 
 footer {
@@ -467,8 +363,6 @@ footer {
     justify-content: center;
     flex-direction: column;
 
-
-
 }
 
 footer .cont_footer {
@@ -477,10 +371,6 @@ footer .cont_footer {
     justify-content: space-around;
     flex-wrap: wrap;
     align-items: center;
-  
-
-  
- 
 
 }
 
