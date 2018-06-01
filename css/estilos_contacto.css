@@ -1,0 +1,574 @@
+*{
+    padding: 0;
+    margin:0;
+    font-family: 'olneylight';
+}
+
+                            /*MENU*/
+header{
+    z-index: 9999;
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background: linear-gradient(rgba(182,14,11,.4
+    )1px,rgba(0,0,0,0));
+    transition: all .2s;
+}
+
+header .logo{
+    margin-left: 40px;
+    width: 262px;
+    height: 75px;
+}
+
+nav a {
+    text-decoration: none;
+      
+    padding: 40px 30px;
+    transition:all 0.2s;
+    font-family: 'olneylight';
+    color: black;
+}
+
+nav a:hover {
+    color:#B60E0B;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li{
+   
+    list-style-type: none;
+    
+}
+
+header ol {
+    list-style: none;
+    display: flex;
+}
+
+header ol li {
+    padding: 15px; 
+}
+
+    header ol li:first-child {
+    padding: 15px;
+
+    
+}
+
+
+header ol li span {
+    padding: 4px;
+    color: black;
+}
+
+#subm {
+    cursor: pointer;
+}
+.sub_menu{
+    
+    display: none;
+    position: absolute;
+    margin-top: 39px;
+    
+    text-align: center;
+    transition: all .2s;
+    
+}
+
+nav ul li:hover .sub_menu {
+    transition: all .2s;
+    display: block;
+     background: #B60E0B;
+}
+
+
+.sub_menu li {
+    transition: all .2s;
+    padding: 10px 0 10px 0;
+    border: 1px solid #B60E0B;
+   
+}
+
+.sub_menu a {
+    transition: all .2s;
+    padding: 0px 10px;
+    color: white;
+}
+
+.sub_menu a:hover {
+    transition: all .2s;
+    padding: 0px 10px;
+    color: white;
+}
+
+.menu_responsive{
+    display: none;
+}
+
+#nav{
+  display: none;
+}
+
+#btn{
+    display: none;
+}
+
+
+                      /*FIN DEL MENU*/
+
+.backg{
+     background-image: url(../img/fondoserv.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+                      /*SECCION UNO*/
+
+.seccion_uno{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.cajauno {
+    display: flex;
+    width: 100%;
+    margin-top:100px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.cajauno h1{
+    margin: 30px 0 20px 0;
+    font-size: 40pt;
+    color: #B60E0B;
+    font-family: 'anita_semi';
+    font-weight: 200;
+}
+
+.cajauno p{
+    width: 90%;
+  max-width: 790px;  
+  margin: 0 0 20px 0;
+}
+
+.infocont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    max-width: 1200px;
+    flex-wrap: wrap;
+}
+
+.sub_info{
+    margin: 20px;
+    width: 220px;
+    max-width: 300px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sub_info img{
+    top: 2px;
+    margin-bottom: 10px;
+}
+
+.sub_info p{
+    font-family: 'olneylight';
+}
+
+
+                     /*SECCION DOS*/
+
+
+.seccion_dos{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 70px;
+}
+
+.cajatexto{
+        text-align: center;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+    margin-top: 35px;
+}
+
+.cajatexto h1{
+    width: 100%;
+    font-family: 'anita_semi';
+    color: #B60E0B;
+    font-size: 40px;
+}
+
+.cajatexto p{
+     font-family: 'olneylight';
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+.asunto{
+    max-width: 800px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.asunto a{
+    width: 45%;
+    border: 1px solid #B60E0B;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 25px;
+    font-family: 'olneylight';
+    cursor: pointer;
+    transition: all .2s;
+}
+
+.asunto a:hover{
+    background: #B60E0B;
+    color: white;
+    
+}
+
+
+
+                     /*SECCION TRES*/
+
+
+.seccion_tres{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont{
+    max-width: 1000px;
+    width: 90%;
+    height: 320px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.lineasig{
+    width: 96%;
+    height: 2px;
+    background: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.redinfo{
+    width: 90%;
+max-width: 400px;
+display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: center;
+}
+
+.redinfo h1 {
+    font-family: 'anita_semi';
+    font-size: 20pt;
+    color: #B60E0B;
+    margin: 40px 0 30px 0;
+}
+
+.redsig {
+    width: 160px;
+    display: flex;
+    align-items: center;
+    margin-bottom:  10px;
+}
+
+.redsig img {
+margin-right: 15px;
+}
+
+.redsig a{
+    text-decoration: none;
+    color: black;
+}
+
+.logocont{
+    height: 130px;
+    margin-top: 20px;
+}
+
+.frame {
+     position: relative;
+    width: 100%;
+    height: 320px;
+    overflow: hidden;
+    margin-bottom: 30px;
+  
+
+
+}
+.frame iframe {
+     position: absolute;
+
+    display: block;
+
+    top: 0;
+
+    left: 50%;
+    transform: translateX(-50%);
+        box-sizing: border-box;
+    padding: 10px;
+    width:100%;
+
+
+    
+}
+
+
+                     /*FOOTER*/
+
+
+footer {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+footer .cont_footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+                            /*CAJA UNO*/
+
+
+.caja_uno {
+    display: flex;
+    flex-wrap: wrap;
+    width:350px;
+    max-width: 350px;
+    height: 100%;
+  
+   
+}
+
+.logo_footer{
+   padding: 20px 0 15px 25px;
+}
+
+.caja_uno li {
+  list-style-type: none;
+  display: flex;
+ 
+ padding: 0 0 15px 25px ;
+}
+
+.wa {
+    width: 23px;
+    height: 23px;
+}
+.ub {
+    width: 23px;
+    height: 27px;
+}
+.mens {
+    width: 24px;
+    height: 18px;
+}
+.time {
+    width: 24x;
+    height: 23px;
+}
+
+.caja_uno p {
+list-style-type: none;
+font-family: 'olneylight';
+margin-left: 10px;
+margin-right: 15px;
+    position: relative;
+}
+
+                            /*CAJA DOS*/
+
+.caja_dos{
+
+ width:350px;
+max-width: 350px;
+height: auto;
+display: flex;
+justify-content: space-around;
+align-items: center;
+
+}
+
+
+.elemento_uno {
+
+    
+}
+
+.elemento_uno ul {
+  margin-top: 45px;
+
+}
+
+.elemento_uno li {
+list-style-type: none;
+display: flex;
+margin-top: 16px;
+    align-items: center;
+}
+
+
+.elemento_uno p {
+list-style-type: none;
+font-family: 'olneylight';
+margin-left: 10px;
+margin-right: 15px;
+font-size: 17px;
+
+}
+
+.elemento_uno li a{
+text-decoration: none;
+    color: black;
+   
+}
+
+.flecha {
+    width: 15px;
+    height: 15px;
+}
+
+
+.elemento_dos {
+    
+   
+}
+
+.elemento_dos ul {
+  
+}
+
+.elemento_dos li {
+list-style-type: none;
+display: flex;
+margin-top: 20px;
+      align-items: center;
+}
+
+
+.elemento_dos p {
+list-style-type: none;
+font-family: 'olneylight';
+margin-left: 10px;
+margin-right: 15px;
+font-size: 17px;
+
+}
+
+.elemento_dos li a{
+text-decoration: none;
+    color: black;
+   
+}
+
+.flecha {
+    width: 15px;
+    height: 15px;
+}
+
+                        /*CAJA TRES*/
+
+
+.caja_tres{
+    
+  width:400px;
+   
+  height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    margin-bottom: 30px;
+    
+}
+
+
+                   /*CAJA FINAL*/
+
+.fin_footer{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    display: flex;
+}
+
+.linea_fin {
+    width: 96%;
+    height: 2px;
+    background: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.caja_izq_fin{
+    width: 50%;
+    height: 100%;
+}
+
+.caja_izq_fin p{
+    font-family: 'olneylight';
+    font-size: 14px;
+    margin: 8px 0 0 26px;
+}
+
+.caja_der_fin {
+    width: 50%;
+    height: 100%;
+}
+
+.caja_der_fin p{
+    font-family: 'olneylight';
+    font-size: 14px;
+    text-align: right;
+    margin: 8px 26px 0 0 ;
+}
+
+
+                   /*FIN SITIO WEB*/
