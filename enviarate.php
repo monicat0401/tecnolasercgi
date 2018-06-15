@@ -1,6 +1,6 @@
 <?php
 
- $destino= "kattycat.17@gmail.com";
+ $destino= "cotizaciones@tecnolasercgi.com";
  $info= $_POST["info"];
  $nombredos= $_POST["nombredos"];
  $emaildos= $_POST["emaildos"];
